@@ -183,3 +183,8 @@ a:active {
   outline-width: 0;
   padding: 0px 0px 0px 20px;
 }
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
