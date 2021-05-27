@@ -84,6 +84,7 @@ body {
     padding: 0px;
     color: #000; 
     background: #DAE8BD;
+
     background-image: url(../img/old-notebook-paper.jpg);
     }
  #wrapper {
@@ -123,6 +124,7 @@ p {
     font: 13px verdana, arial, sans-serif; 
     margin: 10px 0px 17px 0; 
     text-indent: 20px;
+	text-align:justify;
     }
 .new {
     color:blue;
@@ -182,9 +184,10 @@ a:active {
   border-width: 0;
   outline-width: 0;
   padding: 0px 0px 0px 20px;
+}.hide {
+	display: none;
 }
-
-.responsive {
-    max-width: 100%;
-    height: auto;
-}
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
